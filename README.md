@@ -1,12 +1,14 @@
 # instant-vpn
 
-A new key distribution mechanism for wireguard.
+This is an automatic key distribution mechanism for WireGuard. 
 
-This mechanism is exemplified by the implementation of a simple server and a simple client.
+The system is simple and user-friendly, even for those with limited computer expertise.
 
-The core essential of this mechanism is that the client and the server negociate for each session a new interface. There's no persistent interface reserved for each person.
+Connecting to a wideguard across multiple devices simultaneously is a cumbersome and not instantaneous process. It requires an intermediary to solve the problem for you and sometimes it can take a while.
 
-This application for wireguard is for people. The main application is that I can connect from a different device, and as long as I'm authenticated and my plan allows it, I can be online on more than one device without having to request a key to the support team.
+This mechanism is exemplified by the implementation of a simple server and a simple client. The core essential of this mechanism is that the client and the server negotiate for each session a new interface, eliminating the need for a persistent interface reserved for each person. 
+
+In this way, the client only needs to be authenticated, and as long as the plan allows, can be online on different devices at the same time without having to request a key from the support team.
 
 There are three plans.
 
@@ -16,5 +18,3 @@ Gold - 5 devices
 
 Diamond - Unlimited devices
 
-
-writing test
