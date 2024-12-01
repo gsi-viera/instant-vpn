@@ -11,6 +11,8 @@ This application for wireguard is for people. The main application is that I can
 There are three plans.
 
 Bronze - 3 devices
+
 Gold - 5 devices
+
 Diamond - Unlimited devices
 
