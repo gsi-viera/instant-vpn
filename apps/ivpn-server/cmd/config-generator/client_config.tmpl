@@ -1,0 +1,10 @@
+[Interface]                                                       
+PrivateKey = PRIVATE_KEY
+Address = {{ .Interface.Address }}
+DNS = {{ .Interface.DNS }}
+MTU = {{ .Interface.MTU }}
+                                                                  
+[Peer]                                                            
+PublicKey = {{ .Peer.PublicKey }}
+AllowedIPs = {{ .Peer.AllowedIPs }}
+Endpoint = {{ .Peer.EndPoint }}
